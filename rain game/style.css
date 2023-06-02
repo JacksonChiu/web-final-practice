@@ -5,7 +5,10 @@ body {
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: top center;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     
   }
   
@@ -73,6 +76,6 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
-  font-size: 60px;
+  transform: translate(-50%, 0);
+  
 }
