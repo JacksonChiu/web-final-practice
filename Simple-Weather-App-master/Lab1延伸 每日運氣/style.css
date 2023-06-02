@@ -1,0 +1,67 @@
+body{
+    text-align:center;
+    font-family: 'montserrat', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: top center;
+      
+}
+
+h1 {
+    font-size: 90px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Pacifico', cursive;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+#start {
+    font-size: 24px;
+    width: 200px;
+    height: 60px;
+    border: 5px solid #000;
+    transition: transform 0.3s ease;
+    background: linear-gradient(to right, #ff0, #f00); 
+}
+#start:active {
+    transform: scale(0.7);
+}
+#start:hover{
+    box-shadow: 0 0 10px #ff0;
+}
+  
+#sign{
+    font-size: 38px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 22em; /* 或者使用 max-width: 320px;，根據您的需要調整數值 */
+    margin: 0 auto; /* 將左右邊距設置為自動，使文字在容器中水平置中對齊 */
+    background-color: yellow;
+    animation: text-float 7s infinite;
+}
+@keyframes text-float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+  
+#signmean{
+    font-size: 35px;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 21em; /* 或者使用 max-width: 320px;，根據您的需要調整數值 */
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+img
+{
+    border-radius:50%;
+    width: 250px; /* 調整寬度 */
+    height: 250px; /* 調整高度 */
+}

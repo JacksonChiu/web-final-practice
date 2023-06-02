@@ -1,0 +1,12 @@
+img {
+    width: 200px;
+    height: 150px;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: top center;
+  }
+

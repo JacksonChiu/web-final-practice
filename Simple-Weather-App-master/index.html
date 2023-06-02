@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Web</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header>
+      <div class="top-bar">
+        <ul class="top-menu">
+          <li><a href="Lab5 Youtube/index.html">Youtube新聞台</a></li>
+          <li><a href="rain game/index.html">下雨遊戲</a></li>
+          <li><a href="Lab1延伸 每日運氣/index.html">每日運氣</a></li>
+          <li><a href="Lab12延伸RSS/index.html">天氣警報</a></li>
+        </ul>
+      </div>
+      
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city " />
+      <br>
+      <button id="getLocationBtn">按我取得目前位置天氣</button>
+    </header>
+    <main>
+      <section class="location">
+        <div class="city" style="font-size: 60px;">按enter搜尋或按按鈕 取得天氣資訊...</div>
+        <div class="date" style="font-size: 50px;"></div>
+      </section>
+      <div class="content-wrapper">
+        <div class="current">
+          <div class="temp"><span></span></div><div id="result"></div>
+          <div class="weather"></div>
+          <div class="hi-low"></div>
+        </div>
+          
+        <div class="translucent-area">
+          <p>none</p>
+        </div>
+      </div>
+      <hr>
+      
+    </main>
+    
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+

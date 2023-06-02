@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    
+  }
+  
+  #game-container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5); /* 設置半透明背景色 */
+    overflow: hidden;
+  }
+  
+  #player {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .raindrop {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dialog-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dialog-box p {
+    margin: 0 0 20px;
+  }
+  
+  .dialog-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dialog-box button:hover {
+    background-color: #23527c;
+  }
+  
+.h1title{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+}

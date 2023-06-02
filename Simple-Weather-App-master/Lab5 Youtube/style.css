@@ -1,0 +1,30 @@
+h2
+{
+    /*預留歌曲名稱顯示空間*/
+    height: 32px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+body 
+{
+    font-family: 'montserrat', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    text-align:center;
+}
+
+#player
+{
+    margin-top: 20px;
+}
+
+#lastButton,#nextButton{
+    font-size: 30px; /* 设置字体大小 */
+    width: 150px; /* 设置宽度 */
+    height: 50px; /* 设置高度 */
+}
